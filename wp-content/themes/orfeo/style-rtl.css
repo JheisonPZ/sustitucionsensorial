@@ -2544,3 +2544,9 @@ section.products .hestia-shop-content .shop-item .card .card-image a img {
   box-shadow: none;
   opacity: 0.75;
 }
+
+h3.galogin-or{
+	display:none !important;
+}
+
+
