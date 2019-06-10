@@ -25,6 +25,6 @@ if(pathname == "?action=register"){
 	setTimeout(() => {
 		 jQuery("label[for='user_login']").attr('style', 'display: block !important');
 		 jQuery("p.submit").attr('style', 'display: block !important');
-		}, 100);
+		}, 1000);
 
 }
