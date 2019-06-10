@@ -17,3 +17,14 @@ function mwpl_Edit_Login($custom_link, $custom_title, $custom_message, custom_me
     }
 
 }
+
+
+var pathname = window.location.search;
+console.log(pathname)
+if(pathname == "?action=register"){
+	setTimeout(() => {
+		 jQuery("label[for='user_login']").attr('style', 'display: block !important');
+		 jQuery("p.submit").attr('style', 'display: block !important');
+		}, 100);
+
+}
